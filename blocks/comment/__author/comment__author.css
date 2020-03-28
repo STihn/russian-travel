@@ -1,0 +1,14 @@
+.comment__author {
+    text-align: left;
+    font-style: normal;
+    font-weight: 900;
+    font-size: .8rem;
+    line-height: 1.9;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .comment__author {
+        text-align: center;
+    }
+}

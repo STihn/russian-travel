@@ -1,0 +1,27 @@
+.video__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 1.1;
+    color: #FFFFFF;
+    margin: 0 0 1.1rem 1.8rem;
+    max-width: 20.1rem;
+    z-index: 3;
+}
+
+.video__title:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+@media screen and (max-width: 1024px) {
+    .video__title {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__title {
+        font-size: 1.5rem;
+        line-height: 26px;
+    }
+}

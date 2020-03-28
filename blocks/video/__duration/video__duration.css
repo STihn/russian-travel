@@ -1,0 +1,27 @@
+.video__duration {
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1.2;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    margin: 0 0 .7rem 1.8rem;
+    z-index: 3;
+}
+
+.video__duration:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+@media screen and (max-width: 1024px) {
+    .video__duration {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__duration {
+        font-size: .7rem;
+        line-height: 13px;
+    }
+}

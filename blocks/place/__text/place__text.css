@@ -1,0 +1,12 @@
+.place__text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+@media screen and (max-width: 640px) {
+    .place__text {
+        width: 90%;
+        text-align: left;
+    }
+}

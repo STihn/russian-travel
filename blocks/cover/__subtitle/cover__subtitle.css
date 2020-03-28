@@ -1,0 +1,26 @@
+.cover__subtitle {
+    max-width: 23.8rem;
+    text-align: center;
+    margin: 0 auto 3rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 3;
+}
+
+.cover__subtitle:hover {
+    color: rgba(0, 0, 0, .8);
+}
+
+
+@media screen and (max-width: 375px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 21rem;
+    }
+}

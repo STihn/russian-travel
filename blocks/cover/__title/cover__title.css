@@ -1,0 +1,45 @@
+.cover__title {
+    margin: 17.1rem auto 7.8rem;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    text-align: center;
+    color: #FFFDFD;
+    max-width: 68.3rem;
+    position: relative;
+    z-index: 3;
+}
+
+.cover__title:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        max-width: 59rem;
+        margin: 14rem auto 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        margin: 10rem auto 3rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cover__title {
+        font-size: 3rem;
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 6.5rem;
+        margin-bottom: 7px;
+    }
+}

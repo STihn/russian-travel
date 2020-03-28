@@ -1,0 +1,10 @@
+.video__item_kamchatka {
+    background: url(../../../../images/Image-video-2.jpg)  center no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+
+

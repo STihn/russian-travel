@@ -1,0 +1,24 @@
+.footer__copyright {
+    max-width: 17.6rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .8rem;
+    line-height: 1.6;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 640px) {
+    .footer__copyright {
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .footer__copyright {
+        align-self: flex-start;
+        padding-left: 1rem;
+    }
+}

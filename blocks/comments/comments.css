@@ -1,0 +1,5 @@
+@import url(../comments/__container/comments__container.css);
+
+.comments {
+    margin: 0 auto 5rem;
+}

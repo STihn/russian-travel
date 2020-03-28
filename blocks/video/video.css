@@ -1,0 +1,18 @@
+@import url(../video/__container/video__container.css);
+@import url(../video/__item/video__item.css);
+@import url(../video/__item/_kamchatka/video__item_kamchatka.css);
+@import url(../video/__item/_observatory/video__item_observatory.css);
+@import url(../video/__icon-play/video__icon-play.css);
+@import url(../video/__duration/video__duration.css);
+@import url(../video/__title/video__title.css);
+@import url(../video/__subtitle/video__subtitle.css);
+
+.video {
+    margin: 0 auto 6.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        margin-bottom: 6.3rem;
+    }
+}

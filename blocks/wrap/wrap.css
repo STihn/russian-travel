@@ -1,0 +1,27 @@
+.wrap {
+    max-width: 74rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrap {
+        max-width: 58rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        max-width: 45rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrap {
+        max-width: 37.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wrap {
+        max-width: 20rem;
+    }
+}
