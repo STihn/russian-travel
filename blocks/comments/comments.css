@@ -3,3 +3,9 @@
 .comments {
     margin: 0 auto 5rem;
 }
+
+@media screen and (max-width: 375px) {
+    .comments {
+        margin-bottom: 0;
+    }
+}

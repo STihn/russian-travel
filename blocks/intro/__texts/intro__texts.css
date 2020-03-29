@@ -1,4 +1,4 @@
-.intro__text {
+.intro__texts {
     font-style: normal;
     font-weight: bold;
     font-size: .8rem;
@@ -11,7 +11,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .intro__text {
-        margin-left: 1.5rem;
+    .intro__texts {
+        margin-left: .5rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .intro__texts {
+        max-width: 18rem;
+        margin-left: 0;
     }
 }

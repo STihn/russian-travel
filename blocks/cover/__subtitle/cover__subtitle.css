@@ -13,7 +13,8 @@
 }
 
 .cover__subtitle:hover {
-    color: rgba(0, 0, 0, .8);
+    opacity: .7;
+    transition: opacity ease 1s;
 }
 
 
@@ -22,5 +23,11 @@
         font-size: 14px;
         line-height: 17px;
         max-width: 21rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .cover__subtitle {
+        max-width: 18rem;
     }
 }

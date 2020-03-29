@@ -10,7 +10,8 @@
 }
 
 .video__title:hover {
-    color: rgba(0, 0, 0, .7);
+    opacity: .7;
+    transition: opacity ease 1s;
 }
 
 @media screen and (max-width: 1024px) {

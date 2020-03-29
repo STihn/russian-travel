@@ -9,12 +9,14 @@
     width: 47%;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .place__title {
         font-size: 2.6rem;
         line-height: 46px;
-        padding-left: 1.5rem;
-        max-width: 20rem;
+        max-width: 21rem;
+        padding-left: .5rem;
     }
 }
 
@@ -31,5 +33,12 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .place__title {
+        max-width: 18rem;
     }
 }

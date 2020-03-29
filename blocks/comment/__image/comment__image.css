@@ -10,3 +10,9 @@
         margin: 0 auto 2rem;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .comment__image {
+        margin-bottom: 1rem;
+    }
+}

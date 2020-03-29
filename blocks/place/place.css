@@ -24,5 +24,21 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .place {
+        margin-bottom: 5.7rem;
+    }
+}
 
+@media screen and (max-width: 375px) {
+    .place {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .place {
+        margin-bottom: 1rem;
+    }
+}
 

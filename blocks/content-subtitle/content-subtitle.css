@@ -21,5 +21,13 @@
     .content-subtitle {
         font-size: 16px;
         line-height: 23px;
+        max-width: 21.4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .content-subtitle {
+        max-width: 18rem;
     }
 }

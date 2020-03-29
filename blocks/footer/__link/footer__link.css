@@ -8,7 +8,8 @@
 }
 
 .footer__link:hover {
-    color:  #2F80ED;
+    opacity: .7;
+    transition: opacity ease 1s;
 }
 
 @media screen and (max-width: 820px) {

@@ -10,5 +10,6 @@
 }
 
 .place__url:hover {
-    color:  #2F80ED;
+    opacity: .7;
+    transition: opacity ease 1s;
 }

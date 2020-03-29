@@ -24,8 +24,16 @@
 }
 
 @media screen and (max-width: 375px) {
-    .wrap {
+    .content-title {
         font-size: 32px;
         line-height: 35px;
+        max-width: 21.4rem;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .content-title {
+        max-width: 18rem;
     }
 }

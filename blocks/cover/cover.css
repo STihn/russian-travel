@@ -24,7 +24,13 @@
 
 @media screen and (max-width: 375px) {
     .cover {
-        max-width: 20rem;
         height: 17rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .cover {
+        margin-bottom: 0;
     }
 }

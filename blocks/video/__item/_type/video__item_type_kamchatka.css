@@ -1,0 +1,26 @@
+.video__item_type_kamchatka {
+    background: url(../../../../images/Image-video-2.jpg)  center no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.video__item_type_kamchatka::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+
+.video__item_type_kamchatka:hover {
+    opacity: .8;
+    transition: opacity ease 1s;
+}
+
+

@@ -1,5 +1,6 @@
 @import url(../header/__logo/header__logo.css);
 @import url(../header/__lang/header__lang.css);
+@import url(../header/__lang/_active/header__lang_active.css);
 
 .header {
     display: flex;
@@ -12,5 +13,18 @@
 @media screen and (max-width: 1024px) {
     .header {
         margin-bottom: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        max-width: 21.43rem;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .header {
+        max-width: 18rem;
     }
 }

@@ -14,8 +14,17 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .comment__quote {
         order: 1;
+        font-size: 1rem;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comment__quote {
+        padding-left: 1rem;
+        margin-bottom: 3rem;
     }
 }

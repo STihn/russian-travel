@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 768px) {
     .place__image {
-        padding-left: 1rem;
+        padding-left: .5rem;
         margin-right: 1.5rem;
         height: 100%;
     }
@@ -17,5 +17,17 @@
         width: 100%;
         margin: 0 auto 24px;
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__image {
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .place__image {
+        margin-bottom: 1rem;
     }
 }
