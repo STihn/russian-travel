@@ -10,6 +10,12 @@
     margin-bottom: 5rem;
 }
 
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 48rem;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .lead {
        margin-bottom: 4rem;
@@ -18,6 +24,6 @@
 
 @media screen and (max-width: 337px) {
     .lead {
-        max-width: 18rem;
+        max-width: 20rem;
     }
 }

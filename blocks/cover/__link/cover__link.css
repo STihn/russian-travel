@@ -21,7 +21,7 @@
     z-index: 2;
 }
 
-.cover__link:hover {
+.cover__link:hover::after   {
     opacity: .8;
-    transition: opacity ease 1s;
+    transition: opacity linear 1s;
 }

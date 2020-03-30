@@ -40,3 +40,9 @@
         margin-bottom: .5rem;
     }
 }
+
+@media screen and (max-width: 337px) {
+    .lead__title {
+        max-width: 18rem;
+    }
+}
